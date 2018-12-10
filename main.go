@@ -94,7 +94,7 @@ func getSlackMessage(board *advent.Board) *slack.Message {
 func getMessageText(board *advent.Board) string {
 	str := "```"
 	for i, m := range board.Members {
-		str += fmt.Sprintf("%d. %s\n", i+1, m.Name)
+		str += fmt.Sprintf("%d. %s - %d\n", i+1, m.Name, m.LocalScore)
 	}
 	return strings.TrimSpace(str) + "```"
 }
