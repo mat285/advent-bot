@@ -12,6 +12,7 @@ const (
 	leaderboardURLFormat = "https://adventofcode.com/2018/leaderboard/private/view/%s.json"
 
 	EnvVarLeaderBoardID = "ADVENT_LEADERBOARD_ID"
+	EnvVarHeaderCookier = "ADVENT_COOKIE"
 )
 
 type Response struct {
@@ -29,6 +30,7 @@ type Board struct {
 
 func GetLeaderBoard() (*Board, error) {
 	req := request.Get(fmt.Sprintf(leaderboardURLFormat, env.Env().String(EnvVarLeaderBoardID)))
+	req.WithHeader("cookie", env.Env().String(EnvVarHeaderCookier))
 	resp := &Response{}
 	_, err := req.JSONError(resp)
 	if err != nil {
