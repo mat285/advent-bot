@@ -32,7 +32,7 @@ func GetLeaderBoard() (*Board, error) {
 	req := request.Get(fmt.Sprintf(leaderboardURLFormat, env.Env().String(EnvVarLeaderBoardID)))
 	req.WithHeader("cookie", env.Env().String(EnvVarHeaderCookier))
 	resp := &Response{}
-	_, err := req.JSONError(resp)
+	err := req.JSON(resp)
 	if err != nil {
 		return nil, err
 	}

@@ -54,11 +54,11 @@ func handle(r *web.Ctx) web.Result {
 	// user := web.StringValue(r.Param(slack.ParamUserIDKey))
 	// text := web.StringValue(r.Param(slack.ParamTextKey))
 
-	err = verify(r) // verify the request came from slack
-	if err != nil {
-		r.Logger().Error(err)
-		return r.JSON().NotAuthorized()
-	}
+	// err = verify(r) // verify the request came from slack
+	// if err != nil {
+	// 	r.Logger().Error(err)
+	// 	return r.JSON().NotAuthorized()
+	// }
 
 	resp, err := advent.GetLeaderBoard()
 	if err != nil {
@@ -92,9 +92,9 @@ func getSlackMessage(board *advent.Board) *slack.Message {
 }
 
 func getMessageText(board *advent.Board) string {
-	str := ""
+	str := "```"
 	for i, m := range board.Members {
 		str += fmt.Sprintf("%d. %s\n", i+1, m.Name)
 	}
-	return strings.TrimSpace(str)
+	return strings.TrimSpace(str) + "```"
 }
