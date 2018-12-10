@@ -1,0 +1,105 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "VsFGH7AqQu9T+XmIcpRqjrdi4Uk=",
+			"path": "github.com/blend/go-sdk/async",
+			"revision": "f7ce2435aab2dabf366a6cba5844548fed648df2",
+			"revisionTime": "2018-12-08T01:51:29Z"
+		},
+		{
+			"checksumSHA1": "lNPDxoAZNGnk8uaPMPk4jwzCxWI=",
+			"path": "github.com/blend/go-sdk/collections",
+			"revision": "f7ce2435aab2dabf366a6cba5844548fed648df2",
+			"revisionTime": "2018-12-08T01:51:29Z"
+		},
+		{
+			"checksumSHA1": "D5/+khmpdkN/nFSnv0n6Go7tGlM=",
+			"path": "github.com/blend/go-sdk/env",
+			"revision": "f7ce2435aab2dabf366a6cba5844548fed648df2",
+			"revisionTime": "2018-12-08T01:51:29Z"
+		},
+		{
+			"checksumSHA1": "cWZYZC6IoG2gEV4VZGySDwLxv0U=",
+			"path": "github.com/blend/go-sdk/exception",
+			"revision": "f7ce2435aab2dabf366a6cba5844548fed648df2",
+			"revisionTime": "2018-12-08T01:51:29Z"
+		},
+		{
+			"checksumSHA1": "Z/alz+gibYesCpnBlASOPdZcA8U=",
+			"path": "github.com/blend/go-sdk/graceful",
+			"revision": "f7ce2435aab2dabf366a6cba5844548fed648df2",
+			"revisionTime": "2018-12-08T01:51:29Z"
+		},
+		{
+			"checksumSHA1": "t5DaOiUotsLPO29YFwahhwH1XMM=",
+			"path": "github.com/blend/go-sdk/jwt",
+			"revision": "f7ce2435aab2dabf366a6cba5844548fed648df2",
+			"revisionTime": "2018-12-08T01:51:29Z"
+		},
+		{
+			"checksumSHA1": "Px1XOuBSJt7Nl6ZBYgpFKGSTbkQ=",
+			"path": "github.com/blend/go-sdk/logger",
+			"revision": "f7ce2435aab2dabf366a6cba5844548fed648df2",
+			"revisionTime": "2018-12-08T01:51:29Z"
+		},
+		{
+			"checksumSHA1": "w5wPIVBCXqxbgLd1NfcVAsjevuA=",
+			"path": "github.com/blend/go-sdk/request",
+			"revision": "f7ce2435aab2dabf366a6cba5844548fed648df2",
+			"revisionTime": "2018-12-08T01:51:29Z"
+		},
+		{
+			"checksumSHA1": "oExKny/QCb+OIU9x0b8StyOH/L4=",
+			"path": "github.com/blend/go-sdk/semver",
+			"revision": "f7ce2435aab2dabf366a6cba5844548fed648df2",
+			"revisionTime": "2018-12-08T01:51:29Z"
+		},
+		{
+			"checksumSHA1": "WvHsWfhBFOcjkUj71QrtqRXRw9U=",
+			"path": "github.com/blend/go-sdk/template",
+			"revision": "f7ce2435aab2dabf366a6cba5844548fed648df2",
+			"revisionTime": "2018-12-08T01:51:29Z"
+		},
+		{
+			"checksumSHA1": "JboOfIoQm5Ug5w2CZtNFxdyV48Y=",
+			"path": "github.com/blend/go-sdk/util",
+			"revision": "f7ce2435aab2dabf366a6cba5844548fed648df2",
+			"revisionTime": "2018-12-08T01:51:29Z"
+		},
+		{
+			"checksumSHA1": "IGxCLK4Yd35HS7UsvR0FFdZftfg=",
+			"path": "github.com/blend/go-sdk/uuid",
+			"revision": "f7ce2435aab2dabf366a6cba5844548fed648df2",
+			"revisionTime": "2018-12-08T01:51:29Z"
+		},
+		{
+			"checksumSHA1": "o1GjtrLnePIETXt2D4rHgKIr2TI=",
+			"path": "github.com/blend/go-sdk/web",
+			"revision": "f7ce2435aab2dabf366a6cba5844548fed648df2",
+			"revisionTime": "2018-12-08T01:51:29Z"
+		},
+		{
+			"checksumSHA1": "8dUJ/cObxjLRfijGxf7c1Wv9Hto=",
+			"path": "github.com/blend/go-sdk/webutil",
+			"revision": "f7ce2435aab2dabf366a6cba5844548fed648df2",
+			"revisionTime": "2018-12-08T01:51:29Z"
+		},
+		{
+			"checksumSHA1": "u3ZusJ2kQDhjjD0P3Qj92uUtdc4=",
+			"path": "github.com/blend/go-sdk/yaml",
+			"revision": "f7ce2435aab2dabf366a6cba5844548fed648df2",
+			"revisionTime": "2018-12-08T01:51:29Z"
+		},
+		{
+			"path": "github.com/mat285/aqi/pkg/config",
+			"revision": ""
+		},
+		{
+			"path": "github.com/mat285/aqi/pkg/slack",
+			"revision": ""
+		}
+	],
+	"rootPath": "github.com/mat285/advent-bot"
+}
